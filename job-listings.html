@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Listings - JobEasy</title>
+  <link rel="stylesheet" href="css/job-listings.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">JobEasy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Jobs</a>
+      <a href="#">Employers</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="search-section">
+    <h1>Find Jobs That Fit You</h1>
+    <form class="search-form">
+      <input type="text" placeholder="Job title, keywords..." />
+      <input type="text" placeholder="Location" />
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <main class="job-listings">
+
+    <div class="filters">
+      <h3>Filter By</h3>
+      <label><input type="checkbox" /> Full Time</label>
+      <label><input type="checkbox" /> Part Time</label>
+      <label><input type="checkbox" /> Remote</label>
+      <label><input type="checkbox" /> Internship</label>
+    </div>
+
+    <div class="jobs-container">
+
+      <!-- Job Card -->
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p><strong>Company:</strong> Google</p>
+        <p><strong>Location:</strong> California, USA</p>
+        <p><strong>Type:</strong> Full Time</p>
+        <a href="job-details.html" class="btn">View Details</a>
+      </div>
+
+      <div class="job-card">
+        <h3>UI/UX Designer</h3>
+        <p><strong>Company:</strong> Adobe</p>
+        <p><strong>Location:</strong> Remote</p>
+        <p><strong>Type:</strong> Remote</p>
+        <a href="job-details.html" class="btn">View Details</a>
+      </div>
+
+      <!-- Add more job cards here -->
+
+    </div>
+
+  </main>
+
+</body>
+</html>

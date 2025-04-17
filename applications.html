@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Applications - JobEasy</title>
+  <link rel="stylesheet" href="css/applications.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">JobEasy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="job-listings.html">Jobs</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="applications-container">
+    <h1>My Applications</h1>
+
+    <section class="applications-list">
+      <h2>Applications You’ve Submitted</h2>
+      <table class="applications-table">
+        <thead>
+          <tr>
+            <th>Job Title</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Applied On</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example application -->
+          <tr>
+            <td>Software Engineer</td>
+            <td>Tech Innovators</td>
+            <td>San Francisco, CA</td>
+            <td>March 1, 2025</td>
+            <td>Pending</td>
+            <td>
+              <button class="withdraw-application-btn">Withdraw Application</button>
+            </td>
+          </tr>
+
+          <!-- Example application -->
+          <tr>
+            <td>Backend Developer</td>
+            <td>Web Solutions</td>
+            <td>New York, NY</td>
+            <td>February 25, 2025</td>
+            <td>Interview Scheduled</td>
+            <td>
+              <button class="withdraw-application-btn">Withdraw Application</button>
+            </td>
+          </tr>
+
+          <!-- Example application -->
+          <tr>
+            <td>UX/UI Designer</td>
+            <td>DesignWorks</td>
+            <td>Los Angeles, CA</td>
+            <td>January 15, 2025</td>
+            <td>Rejected</td>
+            <td>
+              <button class="withdraw-application-btn">Withdraw Application</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/applications.js"></script>
+</body>
+</html>

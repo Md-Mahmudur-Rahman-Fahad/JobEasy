@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile - JobEasy</title>
+  <link rel="stylesheet" href="css/profile.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">JobEasy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="job-listings.html">Jobs</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <main class="profile-container">
+    <h1>Profile</h1>
+
+    <div class="profile-details">
+      <div class="profile-item">
+        <strong>Name:</strong> <span id="name">John Doe</span>
+      </div>
+      <div class="profile-item">
+        <strong>Email:</strong> <span id="email">john.doe@example.com</span>
+      </div>
+      <div class="profile-item">
+        <strong>Job Title:</strong> <span id="job-title">Frontend Developer</span>
+      </div>
+      <div class="profile-item">
+        <strong>Location:</strong> <span id="location">New York, NY</span>
+      </div>
+    </div>
+
+    <button class="edit-btn" onclick="editProfile()">Edit Profile</button>
+    <button class="edit-btn" onclick="updatePassword()">Update Password</button>
+  </main>
+
+  <div id="edit-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeEditModal()">&times;</span>
+      <h2>Edit Profile</h2>
+      <form id="edit-form">
+        <label>
+          Name:
+          <input type="text" id="edit-name" value="John Doe" />
+        </label>
+
+        <label>
+          Email:
+          <input type="email" id="edit-email" value="john.doe@example.com" />
+        </label>
+
+        <label>
+          Job Title:
+          <input type="text" id="edit-job-title" value="Frontend Developer" />
+        </label>
+
+        <label>
+          Location:
+          <input type="text" id="edit-location" value="New York, NY" />
+        </label>
+
+        <button type="submit" onclick="saveChanges(event)">Save Changes</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/profile.js"></script>
+
+</body>
+</html>

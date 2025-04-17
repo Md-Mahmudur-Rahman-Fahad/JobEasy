@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register - JobEasy</title>
+  <link rel="stylesheet" href="css/register.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">JobEasy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="register-container">
+    <h1>Create Your Account</h1>
+
+    <form class="register-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email" />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="Enter your password" />
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password" />
+
+      <fieldset class="user-type">
+        <legend>Account Type:</legend>
+        <input type="radio" id="job-seeker" name="user-type" value="job-seeker" checked />
+        <label for="job-seeker">Job Seeker</label>
+        <input type="radio" id="employer" name="user-type" value="employer" />
+        <label for="employer">Employer</label>
+      </fieldset>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 JobEasy. All rights reserved.</p>
+  </footer>
+
+  <script src="js/register.js"></script>
+</body>
+</html>

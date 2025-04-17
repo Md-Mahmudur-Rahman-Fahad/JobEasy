@@ -1,0 +1,105 @@
+body {
+     font-family: 'Segoe UI', sans-serif;
+     margin: 0;
+     background-color: #f5f7fa;
+     color: #333;
+     line-height: 1.6;
+   }
+   
+   .header {
+     background-color: #0a66c2;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 2rem;
+   }
+   
+   .header .logo {
+     font-size: 1.5rem;
+     font-weight: bold;
+   }
+   
+   .header nav a {
+     margin-left: 1.2rem;
+     color: white;
+     text-decoration: none;
+   }
+   
+   .job-details-container {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 2rem;
+     gap: 2rem;
+   }
+   
+   .job-info {
+     flex: 1 1 60%;
+     background: white;
+     padding: 2rem;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+   }
+   
+   .job-info h1 {
+     margin-bottom: 0.5rem;
+     color: #0a66c2;
+   }
+   
+   .job-info .company {
+     font-size: 1rem;
+     color: #555;
+     margin-bottom: 0.2rem;
+   }
+   
+   .job-info .type {
+     font-size: 0.95rem;
+     color: #888;
+     margin-bottom: 1rem;
+   }
+   
+   .apply-btn {
+     background-color: #0a66c2;
+     color: white;
+     padding: 0.7rem 1.5rem;
+     border: none;
+     border-radius: 6px;
+     font-size: 1rem;
+     cursor: pointer;
+     margin-bottom: 1.5rem;
+   }
+   
+   hr {
+     margin: 2rem 0;
+     border: none;
+     border-top: 1px solid #eee;
+   }
+   
+   .job-info ul {
+     padding-left: 1.2rem;
+     margin-top: 0.5rem;
+   }
+   
+   .company-info {
+     flex: 1 1 30%;
+     background: white;
+     padding: 1.5rem;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+     height: fit-content;
+   }
+   
+   .company-info h3 {
+     color: #0a66c2;
+   }
+   
+   .company-info .visit {
+     display: inline-block;
+     margin-top: 1rem;
+     background-color: #0a66c2;
+     color: white;
+     padding: 0.5rem 1rem;
+     border-radius: 5px;
+     text-decoration: none;
+   }
+   

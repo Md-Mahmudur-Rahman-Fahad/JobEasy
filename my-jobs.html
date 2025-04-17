@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Jobs - JobEasy</title>
+  <link rel="stylesheet" href="css/my-jobs.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">JobEasy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="job-listings.html">Jobs</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="my-jobs-container">
+    <h1>My Jobs</h1>
+
+    <!-- Jobs Posted by Employer (Table View) -->
+    <section class="posted-jobs">
+      <h2>Jobs I’ve Posted</h2>
+      <table class="job-table">
+        <thead>
+          <tr>
+            <th>Job Title</th>
+            <th>Location</th>
+            <th>Posted On</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example job posting -->
+          <tr>
+            <td>Frontend Developer</td>
+            <td>New York, NY</td>
+            <td>March 10, 2025</td>
+            <td>
+              <button class="view-details-btn">View Details</button>
+              <button class="edit-job-btn">Edit Job</button>
+              <button class="delete-job-btn">Delete Job</button>
+            </td>
+          </tr>
+
+          <!-- Example job posting -->
+          <tr>
+            <td>Backend Developer</td>
+            <td>San Francisco, CA</td>
+            <td>February 15, 2025</td>
+            <td>
+              <button class="view-details-btn">View Details</button>
+              <button class="edit-job-btn">Edit Job</button>
+              <button class="delete-job-btn">Delete Job</button>
+            </td>
+          </tr>
+
+          <!-- Example job posting -->
+          <tr>
+            <td>UI/UX Designer</td>
+            <td>Los Angeles, CA</td>
+            <td>January 20, 2025</td>
+            <td>
+              <button class="view-details-btn">View Details</button>
+              <button class="edit-job-btn">Edit Job</button>
+              <button class="delete-job-btn">Delete Job</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Jobs Applied to by Job Seeker (Table View) -->
+    <section class="applied-jobs">
+      <h2>Jobs I’ve Applied To</h2>
+      <table class="job-table">
+        <thead>
+          <tr>
+            <th>Job Title</th>
+            <th>Location</th>
+            <th>Applied On</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example job application -->
+          <tr>
+            <td>Software Engineer</td>
+            <td>San Francisco, CA</td>
+            <td>March 5, 2025</td>
+            <td>Pending</td>
+            <td>
+              <button class="withdraw-application-btn">Withdraw Application</button>
+            </td>
+          </tr>
+          <!-- More applied jobs can be added dynamically here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/my-jobs.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Post a Job - JobEasy</title>
+  <link rel="stylesheet" href="css/post-job.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">JobEasy</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="job-listings.html">Jobs</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <main class="post-job-container">
+    <h1>Post a New Job</h1>
+
+    <form class="post-job-form">
+      <label>
+        Job Title:
+        <input type="text" placeholder="e.g. Backend Developer" required />
+      </label>
+
+      <label>
+        Company Name:
+        <input type="text" placeholder="e.g. Microsoft" required />
+      </label>
+
+      <label>
+        Location:
+        <input type="text" placeholder="e.g. Remote or New York" required />
+      </label>
+
+      <label>
+        Job Type:
+        <select required>
+          <option value="">Select Type</option>
+          <option>Full Time</option>
+          <option>Part Time</option>
+          <option>Internship</option>
+          <option>Remote</option>
+        </select>
+      </label>
+
+      <label>
+        Job Description:
+        <textarea rows="6" placeholder="Write job responsibilities here..." required></textarea>
+      </label>
+
+      <label>
+        Requirements:
+        <textarea rows="4" placeholder="List skills, experience, qualifications..." required></textarea>
+      </label>
+
+      <button type="submit">Post Job</button>
+    </form>
+  </main>
+
+</body>
+</html>

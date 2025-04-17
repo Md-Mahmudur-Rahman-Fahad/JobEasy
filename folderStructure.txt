@@ -1,0 +1,35 @@
+JobEasy/
+│
+├── index.html               # Landing page
+├── login.html               # Login page
+├── register.html            # Signup page
+├── dashboard.html           # Dashboard for both users
+├── job-listings.html        # Job search page
+├── job-details.html         # Individual job detail view
+├── post-job.html            # Employer job posting form
+├── apply-job.html           # Job application form
+│
+├── css/
+│   └── style.css            # Main styles
+│   └── dashboard.css        # Dashboard-specific styles
+│   └── responsive.css       # Mobile styles (optional)
+│
+├── js/
+│   └── main.js              # Main JS file
+│   └── auth.js              # Login/Register logic
+│   └── dashboard.js         # Dashboard logic
+│   └── job.js               # Job-related functions
+│
+├── images/
+│   └── logo.png             # Your app logo
+│   └── banner.jpg           # Hero section/banner image
+│
+├── assets/
+│   └── resumes/             # (Optional) uploaded resumes
+│   └── company-logos/       # Employer logos
+│
+├── data/                    # (Optional) for local JSON files or dummy data
+│   └── jobs.json
+│   └── users.json
+│
+└── README.md                # Project overview
